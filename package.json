@@ -1,0 +1,26 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mseth5829/leaderboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mseth5829/leaderboard/issues"
+  },
+  "homepage": "https://github.com/mseth5829/leaderboard#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-method-override": "0.0.3"
+  }
+}
