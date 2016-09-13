@@ -54,6 +54,13 @@ app.post('/data', function(req,res){
   res.redirect('/');
 });
 
+app.put('/:id', function(req,res){
+  var currentId = req.params.id;
+  users[currentId] = req.body.user;
+  scores[currentId] = req.body.score;
+  res.redirect('/'+currentId);
+});
+
 app.delete('/:id', function(req,res){
   users.splice(req.params.id,1);
   scores.splice(req.params.id,1);
